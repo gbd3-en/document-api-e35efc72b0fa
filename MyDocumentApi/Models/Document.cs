@@ -14,7 +14,8 @@ namespace MyCompany.ProjectNameHere.MyDocumentApi.Models {
         public virtual string Id { get; set; }
         
         /// <summary>
-        /// Important! For internal use only -- this field is used to determine document access
+        /// Important! This field is used to determine document access.
+        ///  Only documents with a value of "Public" should be returned from this API.
         /// </summary>
         public string AccessLevel { get; set; }
 

@@ -84,7 +84,7 @@ Response:
 
 ### Update an existing document
 
-POST /documents
+PUT /documents
 
 ```bash
 curl --location --request PUT 'http://localhost:5000/documents' \
